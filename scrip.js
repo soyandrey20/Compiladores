@@ -5,7 +5,7 @@ function validar() {
 
     let constante = document.getElementById('constante');
     let msgConstante = document.getElementById('msgconstante');
-    let rgxDecimalPositivo = /^[0-9]*\.[0-9]+$/;
+    let rgxDecimalPositivo = /^[0-9]+(\.[0-9]*)?$/;
 
     if (constante.value.trim() == '' || constante.value.length == 0) {
 
